@@ -243,6 +243,36 @@
                             </div>
                         </div>
                     </form>
+                   
+                    <form action="#" name="topoSV" class="form-horizontal" method="post">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading"><span class="glyphicon glyphicon-map-marker"></span> Localização </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+
+                                    <label for="modelo" class="control-label col-md-2">Localização: </label>
+                                    <div class="col-md-10">
+                                        <input type="text" class="form-control" name="localizacao"  maxlength="50" placeholder="ex: -16.3371453,-48.9542698" required />
+                                    </div>
+                                </div>
+                                    
+                                <br/>
+                                <br/>
+                                <!-- BOTÕES DE AÇÕES -->
+                                <div class="form-group">
+                                    <div style="alignment-adjust: central" ><center>
+                                            <span id="load"></span>
+                                            <input type="submit" name="btnsubmit" class="btn btn-success" aria-label="Left Align">
+                                            <input type="reset" name="btnreset" class="btn btn-danger" aria-label="Right Align">
+                                        </center>
+                                    </div>
+                                    <div class="col-md-9" style="text-align: right"></div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </form>
 
                     
                     <form action="#" name="topoSV" class="form-horizontal" method="post">
@@ -253,7 +283,7 @@
                                 <div class="form-group">
                                     <label for="noticiatopo" class="control-label col-md-2"> Plantão do dia: </label>
                                     <div class="col-md-4">           
-                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
+                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o nome do plantão do dia"  required>
                                     </div>
                                     <div class="col-md-6">
                                         <span id="load"></span>
@@ -265,7 +295,7 @@
                                 <div class="form-group">
                                     <label for="noticiatopo" class="control-label col-md-2"> Profissionais: </label>
                                     <div class="col-md-4">           
-                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
+                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o nome do profissional"  required>
                                     </div>
                                     <div class="col-md-6">
                                         <span id="load"></span>
@@ -277,7 +307,7 @@
                                 <div class="form-group">
                                     <label for="noticiatopo" class="control-label col-md-2"> Medicamentos: </label>
                                     <div class="col-md-4">           
-                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
+                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o medicamento"  required>
                                     </div>
                                     <div class="col-md-6">
                                         <span id="load"></span>
@@ -289,7 +319,7 @@
                                 <div class="form-group">
                                     <label for="noticiatopo" class="control-label col-md-2"> Exames: </label>
                                     <div class="col-md-4">           
-                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
+                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o exame"  required>
                                     </div>
                                     <div class="col-md-6">
                                         <span id="load"></span>
@@ -301,7 +331,19 @@
                                 <div class="form-group">
                                     <label for="noticiatopo" class="control-label col-md-2"> Vacinas: </label>
                                     <div class="col-md-4">           
-                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
+                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite a vacina"  required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span id="load"></span>
+                                        <input type="submit" name="btnsubmit" value="Alterar"  class="btn btn-success" aria-label="Left Align">
+                                        <input type="reset" name="btnreset" value="Excluir" class="btn btn-danger" aria-label="Right Align">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="noticiatopo" class="control-label col-md-2"> Localização: </label>
+                                    <div class="col-md-4">           
+                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite a localização"  required>
                                     </div>
                                     <div class="col-md-6">
                                         <span id="load"></span>
