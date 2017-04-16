@@ -55,7 +55,7 @@
 
                 <nav class="ls-menu">
                     <ul>
-                        <li><a href="noticias.jsp"class="ls-ico-book" title="noticias">NOTÍCIAS</a></li>
+                        <li><a href="NoticiaSV?action=noticiatopo"class="ls-ico-book" title="noticias">NOTÍCIAS</a></li>
                         <li><a href="unidades.jsp" class="ls-ico-plus" title="unidades">UNIDADES DE SAÚDE</a></li>
                         <li><a href="recursos.jsp" class="ls-ico-list" title="recursos">RECURSOS</a></li>
                     </ul>
