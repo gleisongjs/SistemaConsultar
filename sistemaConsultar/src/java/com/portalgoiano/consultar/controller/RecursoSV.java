@@ -21,7 +21,16 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
         
         String action = request.getParameter("action");
 
-        if (action.equals("plantaododia")) {
+        if (action.equals("recurso")) {
+           
+            //request.setAttribute("resultado", msg);
+            request.getRequestDispatcher("recursos.jsp").forward(request, response);
+        
+        }
+            
+                    
+            if (action.equals("plantaododia")) {
+            
             
         }
         

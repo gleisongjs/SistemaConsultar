@@ -75,21 +75,21 @@
 
                 <div class="view-form">  
 
-                    <form action="#" name="topoSV" class="form-horizontal" method="post">
+                    <form action="NoticiasSV?action=noticiatopo" name="topoSV" class="form-horizontal" method="post">
 
                         <div class="panel panel-default">
                             <div class="panel-heading"><span class="glyphicon glyphicon-tasks"></span> Notícia de topo</div>
                             <div class="panel-body">
                                 <div class="form-group">
 
-                                    <label for="modelo" class="control-label col-md-2"> Título: </label>
+                                    <label for="titulo" class="control-label col-md-2"> Título: </label>
                                     <div class="col-md-4">
-                                        <input type="text" class="form-control" name="titulo"  maxlength="50"  required />
+                                        <input type="text" class="form-control" name="tituloNoticiaTopo"  maxlength="50"  required />
                                     </div>
 
                                     <label for="imagem" class="control-label col-md-2"> Imagem:  </label>
                                     <div class="col-md-4">
-                                        <input type="file" class="form-control" name="imagem"    required />
+                                        <input type="file" class="form-control" name="imagemNoticiaTopo"    required />
                                     </div>
 
                                 </div> 
@@ -97,7 +97,7 @@
                                 <div class="form-group">
                                     <label for="descricao" class="control-label col-md-2"> Descrição:  </label>
                                     <div class="col-md-10">
-                                        <input type="text" class="form-control" name="descricao"    required />
+                                        <input type="text" class="form-control" name="descricaoNoticiaTopo"    required />
                                     </div>
                                 </div> 
                                 <br/>
@@ -116,7 +116,7 @@
                             </div>
                         </div>
                     </form>
-                    <form action="#" name="topoSV" class="form-horizontal" method="post">
+                    <form action="NoticiasSV?action=noticiacotidiana" name="cotidianaSV" class="form-horizontal" method="post">
 
                         <div class="panel panel-default">
                             <div class="panel-heading"><span class="glyphicon glyphicon-tasks"></span> Notícias cotidianas</div>
@@ -125,20 +125,20 @@
 
                                     <label for="modelo" class="control-label col-md-2"> Título: </label>
                                     <div class="col-md-4">
-                                        <input type="text" class="form-control" name="titulo"  maxlength="50"  required />
+                                        <input type="text" class="form-control" name="tituloNoticiaCotidiana"  maxlength="50"  required />
                                     </div>
 
                                     <label for="imagem" class="control-label col-md-2"> Imagem:  </label>
                                     <div class="col-md-4">
-                                        <input type="file" class="form-control" name="imagem"    required />
+                                        <input type="file" class="form-control" name="imagemNoticiaCotidiana"    required />
                                     </div>
 
                                 </div> 
 
                                 <div class="form-group">
-                                    <label for="descricao" class="control-label col-md-2"> Descrição:  </label>
+                                    <label for="NoticiasSV?action=descricao" class="control-label col-md-2"> Descrição:  </label>
                                     <div class="col-md-10">
-                                        <input type="text" class="form-control" name="descricao"    required />
+                                        <input type="text" class="form-control" name="descricaoNoticiaCotidiana"    required />
                                     </div>
                                 </div> 
                                 <br/>
@@ -158,7 +158,7 @@
                         </div>
                     </form>
 
-                    <form action="#" name="topoSV" class="form-horizontal" method="post">
+                    <form action="NoticiasSV?action=dicadesaude" name="dicasaude" class="form-horizontal" method="post">
 
                         <div class="panel panel-default">
                             <div class="panel-heading"><span class="glyphicon glyphicon-alert"></span> Dicas de Saúde</div>
@@ -167,12 +167,12 @@
 
                                     <label for="modelo" class="control-label col-md-2"> Título: </label>
                                     <div class="col-md-4">
-                                        <input type="text" class="form-control" name="titulo"  maxlength="50"  required />
+                                        <input type="text" class="form-control" name="tituloDicaSaude"  maxlength="50"  required />
                                     </div>
 
                                     <label for="imagem" class="control-label col-md-2"> Imagem:  </label>
                                     <div class="col-md-4">
-                                        <input type="file" class="form-control" name="imagem"    required />
+                                        <input type="file" class="form-control" name="imagemDicaSaude"    required />
                                     </div>
 
                                 </div> 
@@ -180,7 +180,7 @@
                                 <div class="form-group">
                                     <label for="descricao" class="control-label col-md-2"> Descrição:  </label>
                                     <div class="col-md-10">
-                                        <input type="text" class="form-control" name="descricao"    required />
+                                        <input type="text" class="form-control" name="descricaoDicaSaude"    required />
                                     </div>
                                 </div> 
                                 <br/>
@@ -200,7 +200,7 @@
                         </div>
                     </form>
 
-                    <form action="#" name="topoSV" class="form-horizontal" method="post">
+                    <form action="NoticiasSV?action=alterar" name="topoSV" class="form-horizontal" method="post"> 
 
                         <div class="panel panel-default">
                             <div class="panel-heading"><span class="glyphicon glyphicon-remove-circle"></span> Alterar/Remover</div>
@@ -208,7 +208,7 @@
                                 <div class="form-group">
                                     <label for="noticiatopo" class="control-label col-md-2"> Notícia de Topo: </label>
                                     <div class="col-md-4">           
-                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
+                                        <input type="text" class="form-control" name="alterartopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
                                     </div>
                                     <div class="col-md-6">
                                         <span id="load"></span>
@@ -216,11 +216,11 @@
                                         <input type="reset" name="btnreset" value="Excluir" class="btn btn-danger" aria-label="Right Align">
                                     </div>
                                 </div>
-                                
+
                                 <div class="form-group">
                                     <label for="noticiatopo" class="control-label col-md-2"> Notícias Cotidianas: </label>
                                     <div class="col-md-4">           
-                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
+                                        <input type="text" class="form-control" name="alteraNoticiaCotidiana" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
                                     </div>
                                     <div class="col-md-6">
                                         <span id="load"></span>
@@ -228,11 +228,11 @@
                                         <input type="reset" name="btnreset" value="Excluir" class="btn btn-danger" aria-label="Right Align">
                                     </div>
                                 </div>
-                                
+
                                 <div class="form-group">
                                     <label for="noticiatopo" class="control-label col-md-2"> Dicas de saúde: </label>
                                     <div class="col-md-4">           
-                                        <input type="text" class="form-control" name="removetopo" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
+                                        <input type="text" class="form-control" name="alteraDicaSaude" maxlength="60" placeholder="Digite o título da notícia de topo"  required>
                                     </div>
                                     <div class="col-md-6">
                                         <span id="load"></span>
@@ -241,15 +241,14 @@
                                     </div>
                                 </div>
                             </div>
-                    </form>
-
+                        </div>
                 </div>
-            </div>
-            <!-- Nome do produto/marca sem sidebar quando for o pre-painel  -->
-        </div>
 
-    </main>
-</body>
+                <!-- Nome do produto/marca sem sidebar quando for o pre-painel  -->
+            </div>
+
+        </main>
+    </body>
 </html>
 
 

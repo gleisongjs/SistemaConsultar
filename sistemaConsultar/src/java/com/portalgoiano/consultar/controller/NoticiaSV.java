@@ -18,8 +18,18 @@ public class NoticiaSV extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
 
         String action = request.getParameter("action");
+        
+        if (action.equals("noticia")) {
+            //request.setAttribute("resultado", msg);
+            request.getRequestDispatcher("noticias.jsp").forward(request, response);
+            
+        }
 
         if (action.equals("noticiatopo")) {
+            
+            //request.setAttribute("resultado", msg);
+            request.getRequestDispatcher("noticias.jsp").forward(request, response);
+           
             
         }
         

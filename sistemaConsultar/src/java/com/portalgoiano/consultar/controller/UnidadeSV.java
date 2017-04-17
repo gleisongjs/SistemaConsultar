@@ -21,6 +21,13 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
         
         String action = request.getParameter("action");
 
+        
+        if (action.equals("unidade")) {
+             //request.setAttribute("resultado", msg);
+            request.getRequestDispatcher("unidades.jsp").forward(request, response);
+            
+        }
+        
         if (action.equals("inserir")) {
             
         }
